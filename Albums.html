@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #6c7358;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #212b24;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #cccccc;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 40%; /* IE10 */
+  flex: 15%;
+  background-color: #adb3af;
+  padding: 50px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 30px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #6c7358;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<hr>
+  <h1>Arctic Monkeys</h1>
+  <hr>
+</div>
+
+<div class="navbar">
+   <a href="index.html">Hoofdpagina</a>
+    <a href="Bandleden.html">De Bandleden</a>
+  <a href="Feitjes.html">Feitjes</a>
+  <a href="Albums.html">Over de Albums</a>
+  <a href="Prijzen.html">Prijzen</a>
+ <a href="https://arcticmonkeys.com/videos" class="right">Luister hier</a> 
+</div>
+
+
+
+<div class="row">
+  <div class="side">
+    <h2>Gloednieuwe album van de band:</h2>
+    
+ <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Car_by_Arctic_Monkeys_album.jpg" alt="The Car" width="240" height="240"> 
+  <p><em>The Car (2022)</em> </p>
+    <h3>Eerdere albums:</h3>
+<img src="https://upload.wikimedia.org/wikipedia/en/8/88/Whatever_People_Say_I_Am%2C_That%27s_What_I%27m_Not_%282006_Arctic_Monkeys_album%29.jpg" alt="Whatever People Say I Am, That's What I'm Not" width="240" height="240">
+<p><em>Whatever People Say I Am, That's What I'm Not (2006)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Favourite_Worst_Nightmare.jpg" alt="Favourite Worst Nightmare" width="240" height="240">
+<p><em> Favourite Worst Nightmare (2007)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/2/20/Arcticmonkeys-humbug.jpg" alt="Humbug" width="240" height="240">
+<p><em>Humbug (2009)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Suckitandsee.jpg" alt="Suck It and See" width="240" height="240">
+<p><em>Suck It and See (2011)</em> </p>
+
+   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/%22AM%22_%28Arctic_Monkeys%29.jpg" alt="AM" width="240" height="240">
+   <p><em>AM (2013)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/3/38/Arctic_Monkeys_%E2%80%93_Tranquility_Base_Hotel_%26_Casino.png" alt="Tranquility Base Hotel & Casino" width="240" height="240"> 
+<p><em>Tranquility Base Hotel & Casino (2018)</em> </p>
+  </div>
+  <div class="main">
+<h2> Over de Albums </h2> 
+  <table>
+  <tr>
+    <th>Albums</th>
+    <th>Datum van verschijnen</th>
+    <th>Aantal nummers</th>
+    <th>Genres</th>
+  </tr>
+  <tr>
+    <td><em>Whatever people say I am, that’s what I’m not</em></td>
+    <td>23 januari 2006</td>
+    <td>13</td>
+    <td>Indierock, Alternatieve rock, Garagerock, Postpunkrevival, Punk, Britpop, Post-Britpop</td>
+  </tr>
+  <tr>
+    <td><em>Favourite Worst Nightmare</em></td>
+    <td>23 april 2007</td>
+    <td>12</td>
+    <td>Indierock, Alternatieve rock, Garagerock, Psychedelische rock, Postpunkrevival, Posthardcore, Post-Britpop, Garagepunk</td>
+  </tr>
+  <tr>
+    <td><em>Humbug</em></td>
+    <td>19 augustus 2009</td>
+    <td>10</td>
+    <td>Indierock, Hardrock, Psychedelische rock, Stonerrock, Garagerock, Desert rock</td>
+  </tr>
+  <tr>
+    <td><em>Suck It and See</em></td>
+    <td>6 juni 2011</td>
+    <td>12</td>
+    <td>Indierock, Alternatieve rock, Popmuziek, Garagerock, Psychedelische pop, Psychedelische rock, Poprock </td>
+  </tr>
+  <tr>
+    <td><em>AM</em></td>
+    <td>1 augustus 2013</td>
+    <td>12</td>
+    <td>Rock, Indierock, Hiphop, Psychedelische rock, Garagerock, Britpop, Moderne r&b, Hardrock</td>
+  </tr>
+  <tr>
+    <td><em>Tranquility Base Hotel & Casino</em></td>
+    <td>11 mei 2018</td>
+    <td>11</td>
+    <td>Lounge, Glamrock, Space age pop</td>
+  </tr>
+  <tr> 
+    <td><em>The Car</em></td>
+    <td>21 oktober 2022</td>
+    <td>10</td>
+    <td>Rock, Funk, Lounge, Barokpop</td>
+</table>
+<br>
+    <p> <h3>2005-2006 Whatever people say I am, that’s what I’m not </h3> 
+Na de zomer begon de band aan de opnamen van een debuutalbum. Deze sessies werden afgerond in oktober. De band wist op te vallen door met hun debuutsingle <em>"I Bet You Look Good on the Dancefloor" </em> op de eerste plaats binnen te komen in de UK Singles Chart. Hetzelfde gebeurde met de tweede single <em> "When the Sun Goes Down" </em> in januari 2006. Rondom de Arctic Monkeys ontstond een mediahype, waarbij veel media ze omschreven als 'de beste band van het decennium'. Turner verklaarde hierover: <em>"Het stijgt nu tot zulke hoogten dat, als het nu geen kanker geneest of armoede in steden oplost, het een ramp wordt"</em>.<br>
+      In dezelfde maand verscheen het debuutalbum <em>Whatever people say I am, that's what I'm not</em>. Deze plaat werd in de eerste week 363.735 maal verkocht en was daardoor best verkopende debuutalbum ooit in het Verenigd Koninkrijk. Whatever... won verschillende prijzen: het kreeg de Mercury Music Prize, NME, Time Magazine en Q Magazine verkozen het tot 'het album van het jaar', het won dezelfde prijs op de Brit Awards in 2007 en het werd genomineerd voor een Grammy Award. De Arctic Monkeys-leden bouwden een reputatie op door het afwezig zijn bij media-optredens en bij de Brit Awards. Een nieuwe ep volgde snel: in april verscheen <em>Who the fuck are Arctic Monkeys?</em>, een plaat met vier nieuwe nummers. De band koos voor de titel als cynische reactie op de hype die was ontstaan.
+Eind mei verliet Nicholson tijdelijk de band. Als reden werd vermoeidheid aangegeven. Zijn vervanger werd Nick O'Malley. De eerste uitgave na de komst van O'Malley was de single <em> "Leave Before the Lights Come On"</em>. In de zomer was Arctic Monkeys te zien op Rock Werchter, Pukkelpop en Lowlands. <br><br>
+ 
+<h3>2006-2007 Favourite Worst Nightmare </h3>
+In het najaar begon de band met het schrijven en opnemen van een vervolgalbum. Aanvankelijk probeerden de bandleden één jaar na het debuut de plaat gereed te hebben. Dat lukte niet, mede doordat de bandleden volgens Turner <em>'te veel druk' </em> op zichzelf hadden gelegd. Turner over het album:<em> "De nummers klinken heel anders dan die van het eerste album. Toen sloten we ons op in een niemandsland, nu zaten we midden in The Smoke (Londen), met het uitgaan en dergelijke. Ik denk dat dat misschien een beetje in de songs tot uiting komt."</em> Het tweede album Favourite Worst Nightmare kwam uit op 23 april 2007, met <em>"Brianstorm" </em> als eerste single. Het album werd lovend ontvangen in de gespecialiseerde pers en de daarmee samenhangende goede verkoop liet niet lang op zich wachten: het album kwam op 28 april binnen op nummer 1 van de Nederlandse Album Top 100. In het Verenigd Koninkrijk verschenen alle twaalf nummers van het album in de top 200 van de UK Singles Chart. Favourite Worst Nightmare werd daarnaast opnieuw genomineerd voor een Mercury Music Prize. De tweede single van het album <em>"Fluorescent Adolescent" </em> werd uitgebracht op 9 juli. In dezelfde maand bracht de band onder het pseudoniem The Death Ramps een ep uit, met de nummers <em>"Death Ramps"</em> en <em>"Nettles"</em>. Deze twee nummers fungeerden ook als B-kant voor de derde single <em>"Teddy Picker"</em>. <br><br>
+ 
+<h3>2008-2010 Humbug </h3>
+Arctic Monkeys begon in januari 2008 met het schrijven van nieuwe nummers. In januari werden zes nummers opgenomen. De band had op dat moment bijna de neiging om een heel album te maken, maar koos voor een rustiger tempo en stelde het verdere werk uit tot de zomer. Turner hierover: <em> "Het was goed om even een pauze te hebben - niet alleen voor ons, maar ook om iedereen een adempauze te gunnen. Voor dit album moesten we wat meer tijd nemen"</em>. Turner had hierdoor ook meer tijd voor zijn andere band The Last Shadow Puppets. 
+Het optreden van de band in december 2007 in het Manchester Apollo dat werd opgenomen, werd in 2008 uitgebracht. De dvd Arctic Monkeys Live at the Apollo verscheen op 3 november en werd geregisseerd door Richard Ayoade. <br>
+In juni werd de naam en datum van uitgave van het album bekendgemaakt: Humbug werd op 24 augustus uitgebracht. Op 30 juli werd een online-concert gegeven waarbij internetters vijf nieuwe nummers te horen kregen, waaronder de eerste single <em>"Crying Lightning"</em>.  Later verschenen er nog twee singles: <em>"Cornerstone"</em> en <em>"My Propeller"</em>. Ook stond de band weer op Pukkelpop en Lowlands, evenals een reeks overige Europese festivals. <br><br>
+ 
+<h3>2011-2013 Suck it and See </h3>
+Op donderdag 10 maart 2011 kondigden Arctic Monkeys hun vierde studio-album, genaamd Suck It and See, aan voor een uitgave op 6 juni 2011. Het album bevat 12 nummers, waarvan het nummer <em>"Brick by brick"</em> al eerder op YouTube te vinden was. Het nummer <em>"Don't Sit Down 'Cause I've Moved Your Chair" </em> zal als eerste single uitgebracht worden en digitaal uitkomen op 11 april 2011. Tijdens de openingsceremonie van de Olympische Spelen 2012 in Londen speelden de Arctic Monkeys twee nummers: <em>"I Bet You Look Good on the Dancefloor"</em> en een cover van The Beatles' song <em>"Come Together"</em>. Dit was voor de ogen van Queen Elizabeth en de openingsceremonie is door miljoenen mensen bekeken. <br><br>
+ 
+<h3>2013-2017 AM </h3>
+In 2012 werd aan het vijfde studioalbum AM gewerkt. In mei 2013 begon de band al aan hun tour en deed daarbij onder andere Best Kept Secret en het Hurricane Festival aan. Drie singles bracht de band uit voor het album werd gelanceerd, namelijk <em>"R U Mine?"</em>,<em> "Do I Wanna Know?" </em> en <em> "Why'd You Only Call Me When You're High?"</em>. Op 9 september 2013 werd AM uitgebracht en het album wist uit te groeien tot het populairste album van de band. Het stond één week op nummer één in de Nederlandse Album Top 100 en twee weken in de Vlaamse Ultratop 50.<br>
+Op 24 augustus 2014 kondigde de band na hun tour tijdelijk uit elkaar te gaan. Alex Turner ging in 2016 weer met Miles Kane de studio in om aan het tweede album van <em>The Last Shadow Puppets</em> te werken en Matt Helders was als drummer te horen op het album <em>Post Pop Depression</em> van Iggy Pop.<br><br>
+ 
+<h3>2017-2022 Tranquility Base Hotel & Casino </h3>
+Eind 2016 kwamen de bandleden weer bij elkaar. Zanger Alex Turner bevestigde later tegenover de BBC dat er gewerkt wordt aan een nieuw album. Op 5 april 2018 werd bekend dat het nieuwe album <em>Tranquility Base Hotel & Casino</em> zal gaan heten. Er verscheen een teaser. op YouTube, waarvan de laatste paar seconden bestaan uit de riff van het nummer <em>"Four out of Five"</em>.
+Op 2 mei 2018 speelde de band voor het eerst een aantal nummers van het album in San Diego. Al snel verschenen opnames van deze nummers gemaakt door fans op internet. Negen dagen later kwam het album uit. <br><br>
+ 
+<h3>2022: The Car </h3>
+Op 21 oktober 2022 kwam het album The Car uit. De eerste single hieruit <em>"There’d Better Be A Mirrorball" </em> werd uitgebracht op 30 augustus 2022. Daarna volgde nog twee singles voor de lancering van het nieuwe album.
+ 
+</p> 
+
+
+
+  </div>
+</div>
+<html>
+<body>
+
+
+</body>
+</html>
+
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>

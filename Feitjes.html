@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #6c7358;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #212b24;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #cccccc;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 40%; /* IE10 */
+  flex: 15%;
+  background-color: #adb3af;
+  padding: 50px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 30px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #6c7358;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<hr>
+  <h1>Arctic Monkeys</h1>
+  <hr>
+</div>
+
+<div class="navbar">
+   <a href="index.html">Hoofdpagina</a>
+    <a href="Bandleden.html">De Bandleden</a>
+  <a href="Feitjes.html">Feitjes</a>
+  <a href="Albums.html">Over de Albums</a>
+  <a href="Prijzen.html">Prijzen</a>
+ <a href="https://arcticmonkeys.com/videos" class="right">Luister hier</a> 
+</div>
+
+
+
+<div class="row">
+  <div class="side">
+    <h2>Gloednieuwe album van de band:</h2>
+    
+ <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Car_by_Arctic_Monkeys_album.jpg" alt="The Car" width="240" height="240"> 
+  <p><em>The Car (2022)</em> </p>
+    <h3>Eerdere albums:</h3>
+<img src="https://upload.wikimedia.org/wikipedia/en/8/88/Whatever_People_Say_I_Am%2C_That%27s_What_I%27m_Not_%282006_Arctic_Monkeys_album%29.jpg" alt="Whatever People Say I Am, That's What I'm Not" width="240" height="240">
+<p><em>Whatever People Say I Am, That's What I'm Not (2006)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Favourite_Worst_Nightmare.jpg" alt="Favourite Worst Nightmare" width="240" height="240">
+<p><em> Favourite Worst Nightmare (2007)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/2/20/Arcticmonkeys-humbug.jpg" alt="Humbug" width="240" height="240">
+<p><em>Humbug (2009)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Suckitandsee.jpg" alt="Suck It and See" width="240" height="240">
+<p><em>Suck It and See (2011)</em> </p>
+
+   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/%22AM%22_%28Arctic_Monkeys%29.jpg" alt="AM" width="240" height="240">
+   <p><em>AM (2013)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/3/38/Arctic_Monkeys_%E2%80%93_Tranquility_Base_Hotel_%26_Casino.png" alt="Tranquility Base Hotel & Casino" width="240" height="240"> 
+<p><em>Tranquility Base Hotel & Casino (2018)</em> </p>
+  </div>
+  <div class="main">
+    <h2>Feitjes over de Arctic Monkeys</h2>
+    <p> Ondanks dat het debuutalbum een grote hit was waren sommige mensen niet zo tevreden. Op het album cover is een man afgebeeld die een sigaret aan het roken is. Een Schotse gezondheidsorganisatie dient een klacht in omdat de foto op de albumcover de indruk zou geven dat roken oké is. ‘Je kan op het beeld zien dat het roken hem niet veel goed doet’, werpt een woordvoerder van de band tegen.<br> <br> 
+In het nummer “I Bet You Look Good on the Dancefloor” wordt verwezen naar een nummer van Duran Duran. De zin “Your name isn't Rio, but I don’t care for sand”, wordt verwezen naar het nummer Rio van de popband Duran Duran. <br> <br> 
+Het nummer “Teddy Picker” bevat ook een referentie naar de band Duran Duran: “I don’t want your prayer, save It for the morning after”. Deze zin verwijst naar het nummer “Save A Prayer” <br> <br> 
+Er is een award winning kortfilm gemaakt genaamd <a href="https://www.ikwilfilmskijken.com/film/scummy-man">Scummy Man</a> dat geïnspireerd is door het nummer “When The Sun Goes Down”. Het nummer zelf gaat over prostitutie in Sheffield. De film vertelt hetzelfde verhaal en de titel is bedacht door het stukje uit het liedje: “What a scummy man”. <br> <br> 
+Voor de zin ‘In my imagination you're waiting lying on your side, With your hands between your thighs’ van het nummer 505 liet Alex Turner zich inspireren door het schilderij ‘Venus van Orbino’ van de Italiaanse schilder Titian. <br> <br> 
+
+Het nummer 505 begint met ‘I'm going back to 505’, maar niemand weet zeker wat ‘505’ is. De kans is groot dat het het nummer van een hotelkamer is. <br><br>
+
+Alex Turner heeft in 2010 muziek gemaakt voor de film <a href="https://www.imdb.com/title/tt1440292/">Submarine<a>. Hij schreef een nummer genaamd "Piltzdriver waltz" die ook verscheen in het album Suck It and See die in 2011 uitkwam.  <br><br> 
+
+Naast Arctic Monkeys zit Alex Turner ook nog in een andere band, genaamd The Last Shadow Puppets samen met Miles Kane. De band was actief van 2008 t/m 2016 waarin ze twee albums hebben uitgebracht: "Everything You've Come To Expect" en "The Age Of The Understatement".<br><br>
+        In 2022 verscheen er een <a href="https://nl.pinterest.com/pin/754071531371903837/">liefdesbrief<a> die Alex Turner Naar Alexa Chung heeft geschreven 
+       
+        
+
+    
+    
+   <br>
+ 
+   <html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #3f5244;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #adb3af;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+  </div>
+</div>
+<html>
+<body>
+
+
+</body>
+</html>
+
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>

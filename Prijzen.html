@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #6c7358;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #212b24;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #cccccc;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 40%; /* IE10 */
+  flex: 15%;
+  background-color: #adb3af;
+  padding: 50px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 30px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #6c7358;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<hr>
+    <h1> Arctic Monkeys </h1> 
+  <hr>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Hoofdpagina</a>
+    <a href="Bandleden.html">De Bandleden</a>
+  <a href="Feitjes.html">Feitjes</a>
+  <a href="Albums.html">Over de Albums</a>
+  <a href="Prijzen.html">Prijzen</a>
+ <a href="https://arcticmonkeys.com/videos" class="right">Luister hier</a> 
+</div>
+
+
+
+<div class="row">
+  <div class="side">
+    <h2>Gloednieuwe album van de band:</h2>
+    
+ <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Car_by_Arctic_Monkeys_album.jpg" alt="The Car" width="240" height="240"> 
+  <p><em>The Car (2022)</em> </p>
+    <h3>Eerdere albums:</h3>
+<img src="https://upload.wikimedia.org/wikipedia/en/8/88/Whatever_People_Say_I_Am%2C_That%27s_What_I%27m_Not_%282006_Arctic_Monkeys_album%29.jpg" alt="Whatever People Say I Am, That's What I'm Not" width="240" height="240">
+<p><em>Whatever People Say I Am, That's What I'm Not (2006)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Favourite_Worst_Nightmare.jpg" alt="Favourite Worst Nightmare" width="240" height="240">
+<p><em> Favourite Worst Nightmare (2007)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/2/20/Arcticmonkeys-humbug.jpg" alt="Humbug" width="240" height="240">
+<p><em>Humbug (2009)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Suckitandsee.jpg" alt="Suck It and See" width="240" height="240">
+<p><em>Suck It and See (2011)</em> </p>
+
+   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/%22AM%22_%28Arctic_Monkeys%29.jpg" alt="AM" width="240" height="240">
+   <p><em>AM (2013)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/3/38/Arctic_Monkeys_%E2%80%93_Tranquility_Base_Hotel_%26_Casino.png" alt="Tranquility Base Hotel & Casino" width="240" height="240"> 
+<p><em>Tranquility Base Hotel & Casino (2018)</em> </p>
+  </div>
+  <div class="main">
+    
+</style>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th>Prijs</th>
+    <th>Voor</th>
+    <th>Prijs</th>
+    <th>voor</th>
+  </tr>
+  <tr>
+    <td>NME Award voor Beste album</td>
+    <td>AM, Whatever People Say I Am, That's What Im not 2014, 2007 </td>
+    <td>Brit Award voor Beste nieuwkomer</td>
+    <td> 2006</td> 
+    </tr>
+    <tr>
+ 
+    <td>Brit Award voor Beste Britse groep</td>
+    <td>2007, 2008, 2014</td>
+    <td> NME Award voor Beste Track </td>
+    <td> Fluorescent Adolescent, I Bet You Look Good On The Dancefloor </td>
+  </tr>
+  <tr>
+  <td> UK Festival Award - Headline Performance</td> 
+  <td> 2013, Arctic Monkeys at Glastonbury Festival</td>
+  <td> NME Award voor Beste Music DVD</td>
+  <td> 2007, 2009 Arctic Monkeys live at the Apollo</td> 
+  </tr>
+  <tr>
+  <td> NME Award voor Beste live band </td>
+  <td> 2010, 2012, 2014 </td>
+  <td> Mercury Prize </td> 
+  <td> 2006, Whatever People Say I Am, That's What Im Not </td> 
+  </tr>
+  <tr>
+  <td> Brit Award voor Beste Britse album </td> 
+  <td> 2007, 2008, 2014 Am, Favorite Worst Nightmare, Whatever People Say I Am, That's What Im Not </td> 
+  <td> NME Award voor Beste Video</td>
+  <td> 2008, 2013 R U Mine?, Teddy Picker </td> 
+  </tr>
+  <tr>
+  <td>UK Festival Award - Anthem of the Summer </td>
+  <td> 2006, 2007 I Bet You Look Good On The Dancefloor, Fluorscent Adolescent </td>
+  <td> NME Award voor Beste Britse Band </td> 
+  <td> 2006, 2008, 2014 </td> 
+  </tr>
+  <tr>
+  <td> NME Award voor Best New Band </td> 
+  <td> 2006 </td> 
+  <td> NME Award voor Beste fan Community </td> 
+  <td> 2014 </td>
+</table>
+
+
+</body>
+</html>
+   <br>
+ 
+   <html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #3f5244;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #adb3af;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+  </div>
+</div>
+<html>
+<body>
+
+
+</body>
+</html>
+
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>
